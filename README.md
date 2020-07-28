@@ -1,7 +1,8 @@
 
+## BASIC REQUIREMENTS
+
 ### Download TensorFlow Object Detection API repository from GitHub
 Create a folder directly in C: and name it “tensorflow1”. This working directory will contain the full TensorFlow object detection framework, as well as your training images, training data, trained classifier, configuration files, and everything else needed for the object detection classifier.
-
 
 #### Download the Faster-RCNN-Inception-V2-COCO model from TensorFlow's model zoo
 TensorFlow provides several object detection models (pre-trained classifiers with specific neural network architectures) in its [model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md). Some models (such as the SSD-MobileNet model) have an architecture that allows for faster detection but with less accuracy, while some models (such as the Faster-RCNN model) give slower detection but with more accuracy.
